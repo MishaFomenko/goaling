@@ -14,7 +14,6 @@ export default function LeaguesList() {
                 return data;
             })
             .then(data => {
-                console.log(data.response)
                 leagues.length === 0 && setLeagues(data.response)
             })
             .catch(error => {

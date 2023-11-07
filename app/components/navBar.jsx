@@ -12,7 +12,7 @@ function NavBar() {
         <>
             <Navbar key={expand} expand={expand} className="bg-body-tertiary">
                 <Container fluid>
-                    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+                    <Navbar.Brand href="#">GOALING</Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-${expand}`}
@@ -26,7 +26,7 @@ function NavBar() {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <Nav.Link href="#action1">Home</Nav.Link>
+                                {/* <Nav.Link href="#action1">Home</Nav.Link>
                                 <Nav.Link href="#action2">Link</Nav.Link>
                                 <NavDropdown
                                     title="Dropdown"
@@ -40,7 +40,7 @@ function NavBar() {
                                     <NavDropdown.Item href="#action5">
                                         Something else here
                                     </NavDropdown.Item>
-                                </NavDropdown>
+                                </NavDropdown> */}
                             </Nav>
                             <Form className="d-flex">
                                 <Form.Control
